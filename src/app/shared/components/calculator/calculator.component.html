@@ -1,0 +1,17 @@
+<div class="card">
+  <div class="card-header">
+    The best calculator ever
+  </div>
+  <div class="card-body">
+    <h5 class="card-title">Digite os valores a serem {{operator.getName()}}</h5>
+
+    <div>
+      <input type="number" [(ngModel)]="inputValue1" (keyup)="doCalculator()">
+      <span>{{operator.getSymbol()}}</span>
+      <input type="number" [(ngModel)]="inputValue2" (keyup)="doCalculator()">     
+      <span>=</span>
+      <span highlightValue="{{result}}" > {{result}}</span>
+    </div>
+  </div>
+
+</div>

@@ -1,0 +1,13 @@
+.list-group{
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    margin-bottom: 50px;
+    
+}
+
+.list-group-item{
+    float: left;
+    margin: 5px;
+    width: 150px;
+}
